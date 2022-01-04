@@ -1,5 +1,7 @@
 import logging, re
 
+# Permet de vérifier si les commandes TCL dans la liste sont utilisés dans les iRules. Ceci pour prévenir d'un changement de comportement lors d'un upgrade
+
 logging.basicConfig(level=logging.INFO)
 
 #list_update = ['DIAMETER::persist','HTTP::proxy','MR::message','MR::peer','SIP::persist','TCP::congestion','TCP::pacing','ANTIFRAUD::alert_bait_signatures','ANTIFRAUD::alert_device_id','ANTIFRAUD::alert_forbidden_added_element','SSL::nextproto','RADIUS::avp','SDP::field','SSL::forward_proxy','CRYPTO::decrypt','CRYPTO::encrypt','DIAMETER::avp','LSN::persistence','FLOW::priority']
